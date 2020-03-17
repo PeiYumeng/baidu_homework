@@ -58,7 +58,6 @@ $(function() {
             case 'tel':
                 if(!(/^13|15|17|18\d{9}$/.test($data.val()))) {
                     $message.html('手机号格式不正确');
-                   // $data.select();
                     $data.css('border','1px solid red')
                     return false;
                 }
@@ -66,7 +65,6 @@ $(function() {
             case 'pwd':
                 if(!(/^[_a-zA-Z0-9]+$/.test($data.val()))) {
                     $message.html('密码格式不正确');
-                  //  $data.select();
                     $data.css('border','1px solid red')
                     return false;
                 }
