@@ -74,7 +74,6 @@ $(function() {
                 if($data.val()==='') {
                     console.log($data.val())
                     $message.html('请求超时请稍后再试');
-                  //  $data.select();
                     return false;
                 }
                 break;
