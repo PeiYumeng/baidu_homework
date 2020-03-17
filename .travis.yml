@@ -4,6 +4,8 @@ node_js:
 
 after_script:
   - grunt
+  - cp ./baidu.png ./dist/baidu.png
+  - cp ./bg.jpg ./dist/bg.jpg
   - cd ./dist
   - git init
   - git config user.name "${USER_NAME}"
