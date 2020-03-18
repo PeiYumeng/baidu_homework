@@ -51,7 +51,7 @@ $(function() {
                 if(!(/^(?!(\d+)$)[\u4e00-\u9fa5_a-zA-Z0-9]+$/.test($data.val()))) {
                     $message.html('用户名仅支持中英文、数字和下划线，且不能为纯数字');
                     $data.css('border','1px solid red')
-                  //  $data.select();
+                  //$data.select();
                     return false;
                 }
                 break;
